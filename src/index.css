@@ -1,0 +1,55 @@
+
+body {
+    background-color: #b2b2b2;
+    background-image: url('../public/images/CI-nanoverse.jpg');
+    color: #331e19;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center; /* จัดตำแหน่ง text ใน div เป็นตรงกลาง */
+  }
+  .btn-white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 20px;
+
+  }
+  .btn-white:active{
+    box-shadow: none;
+    transform: translateY(5px);
+    
+  }
+  
+  button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 20px 70px;
+    cursor: pointer;
+    width: 80%;
+    display: block; /* กำหนดให้ปุ่มเป็น block element เพื่อจัดตำแหน่งตรงกลาง */
+    margin: 0 auto; /* จัดให้ปุ่มอยู่ตรงกลาง */
+  }
+  
+  h1 {
+    color: #331e19;
+    text-align: center; /* จัดตำแหน่งข้อความใน h1 เป็นตรงกลาง */
+  }
+  
+  /* ปรับข้อความ 1, 2, 3 เป็นตรงกลางและใส่กรอบ */
+  .abc:nth-child(2)
+
+   {
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px auto; /* จัดให้ตรงกลาง */
+    width: 80%; /* กำหนดความกว้าง */
+    
+    text-align: left; /* จัดให้ข้อความอยู่ที่ซ้าย */
+  }
+  
+  .imag img{
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
